@@ -55,8 +55,8 @@ From the host application's point of view, a VST plug-in is a black box with an 
 The source code of a VST plug-in is platform independent, but the delivery system depends on the platform architecture:
 
 - On **Windows**, a VST plug-in is a multi-threaded DLL (Dynamic Link Library), recently packaged into a folder structure.
-- On **Mac OS X**, a VST plug-in is a Mach-O Bundle
-- On **Linux**, a VST plug-in is a package
+- On **Mac OS X**, a VST plug-in is a Mach-O Bundle.
+- On **Linux**, a VST plug-in is a package.
 
 To learn more about VST you can:
 
@@ -78,7 +78,7 @@ Processing can optionally be applied to plug-ins only when audio signals are pre
 
 ### 2. Multiple Dynamic I/Os
 
-VST 3 plug-ins are no longer limited to a fixed number of inputs and outputs, and their I/O configuration can dynamically adapt to the channel configuration. Side-chains are also very easily realizable. This includes the possibility to deactivate unused busses after loading and even reactivate those when needed. This cleans up the mixer and further helps to reduce CPU load.
+VST 3 plug-ins are no longer limited to a fixed number of inputs and outputs, and their I/O configuration can dynamically adapt to the channel configuration. Side-chains are also very easily realizable. This includes the possibility to deactivate unused buses after loading and even reactivate those when needed. This cleans up the mixer and further helps to reduce CPU load.
 
 ### 3. Sample-accurate Automation
 
